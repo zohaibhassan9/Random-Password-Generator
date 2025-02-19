@@ -7,7 +7,19 @@
 </head>
 <body>
     
+<div class="main-container">
 
+<h2>Random Password Generator</h2>
+<div class="input-div">
+<input type="text" name="" id="Password" readonly placeholder="Your Password">
+<button onload="copyPassword"><strong>Copy<strong></button>
+</div>
+
+<label for="length">Length: </label>
+<input type="number" id="length" value="12" min="6" max="24">
+<button onclick="generatePassword">Generate Password</button>
+
+</div>
 
 <script src="index.js"></script>
 </body>
